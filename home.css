@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif,'poppins';
+    color: #fff;
+}
+body {
+    background-color: #000000;  
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding:10px;
+    background: transparent;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight:600;
+    padding-left: 15px;
+   
+}
+.navbar {
+    display: inline-block;
+    justify-content: flex;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.navbar a.active {
+    font-weight: 500;
+    text-decoration: underline;
+
+}
+a:hover{
+    color: #d71818;
+}
+.contact{
+    padding: 10px 28px;
+    background-color: #fff;
+    color: #000000;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color:  #d71818;
+    box-shadow: 0 0 20px  #d71818;
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 150px;
+}
+.container .hero-pic{
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid rgb(146, 9, 9);
+    box-shadow: 5px 5px 25px rgb(146, 9, 9);
+}
+.hero-pic img{
+    height: 100%;
+    width: 100%;
+}
+.hero-pic img:hover{
+    transform: 500px;
+}
+
+.home-content{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.home-content h3{
+    padding-bottom: 5px;
+    font-size: 40px;
+    font-weight: 600px;
+    padding-left: 10px;
+    text-align: justify
+}
+.home-content h1{
+    font-size: 65px;
+    font-weight: 700px;
+    margin: 0 0;
+    color:  rgb(207, 27, 27);
+    padding: 5px;
+    text-align: justify;
+}
+.home-content p{
+    padding-left: 8px;
+    padding-top: 5px;
+    font-size: 25px;
+    justify-content: justify;
+}
